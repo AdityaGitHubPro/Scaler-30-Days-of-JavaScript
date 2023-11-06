@@ -1,0 +1,8 @@
+function reverseNumber(x) {
+  const reversed = parseInt(x.toString().split('').reverse().join(''));
+  return reversed;
+}
+
+const x = 32243;
+const reversedX = reverseNumber(x);
+console.log(reversedX);
